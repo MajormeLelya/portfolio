@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Icon } from "../../components/icon/Icon";
 import { FlexWrapper } from "../../components/FlexWrapper";
+import { Theme } from "../../styles/Theme";
 
 export const Footer = () => {
   return (
@@ -57,19 +58,42 @@ export const Footer = () => {
 };
 
 const StyledFooter = styled.footer`
-  background-color: #ffffff;
-  min-height: 20vh;
+  background-color: ${Theme.colors.secondaryBg};
+  padding: 40px 0;
 `;
 
-const Name = styled.span``;
+const Name = styled.span`
+  font-family: "Inconsolata", monospace;
+  font-weight: 600;
+  font-size: 22px;
+  letter-spacing: 3px;
+  text-transform: capitalize;
+`;
 
 const SocialList = styled.ul`
   display: flex;
-  gap: 30px;
+  gap: 20px;
+  margin: 30px 0;
 `;
 
 const SocialItem = styled.li``;
 
-const SocialLink = styled.a``;
+const SocialLink = styled.a`
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-const Copyright = styled.small``;
+  color: ${Theme.colors.socialColor};
+
+  &:hover {
+    color: ${Theme.colors.accent};
+    transform: translateY(-4px);
+  }
+`;
+
+const Copyright = styled.small`
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  opacity: 0, 5;
+`;

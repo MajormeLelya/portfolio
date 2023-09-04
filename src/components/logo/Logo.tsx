@@ -7,8 +7,8 @@ export const Logo = () => {
       <Icon
         height={"120px"}
         width={"120px"}
-        viewBox={"0 0 120px 120px"}
-        iconId={"hiSvg"}
+        viewBox={"0 0 20px 20px"}
+        iconId={"styledcomponentsSvg"}
       />
     </a>
   );
