@@ -32,6 +32,7 @@ const StyledForm = styled.form`
   align-items: center;
   gap: 16px;
   margin: 0 auto;
+  position: relative;
 
   textarea {
     resize: none;

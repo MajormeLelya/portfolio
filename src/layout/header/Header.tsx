@@ -21,7 +21,7 @@ export const Header = () => {
 };
 
 const StyledHeader = styled.header`
-  background-color: #ffff;
+  background-color: transparent;
   padding: 20px 0;
   position: fixed;
   top: 0;

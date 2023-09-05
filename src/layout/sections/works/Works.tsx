@@ -5,8 +5,8 @@ import { FlexWrapper } from "../../../components/FlexWrapper";
 import { Work } from "./work/Work";
 import quizlImage from "./../../../assets/images/rickandmorthy.jpeg";
 import imagePse from "./../../../assets/images/curvedline.svg";
-import { HeaderMenu } from "../../header/headerMenu/HeaderMenu";
 import { Container } from "../../../components/Container";
+import { TabMenu } from "./tabMenu/TabMenu";
 
 const worksItems = ["All", "Landing Page", "React", "SPA"];
 
@@ -15,7 +15,7 @@ export const Works = () => {
     <StyledWorks>
       <Container>
         <SectionTitle curvedLine={imagePse}>My Works</SectionTitle>
-        <HeaderMenu menuItems={worksItems} />
+        <TabMenu menuItems={worksItems} />
         <FlexWrapper justify={"space-around"}>
           <Work
             title={"Quiz Rick and Morty"}
@@ -28,7 +28,4 @@ export const Works = () => {
   );
 };
 
-const StyledWorks = styled.section`
-  min-height: 100vh;
-  background-color: #b5cbf4;
-`;
+const StyledWorks = styled.section``;

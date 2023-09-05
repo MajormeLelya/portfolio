@@ -35,6 +35,7 @@ const StyledSkill = styled.div`
 `;
 const StyledSkillTitle = styled.h3`
   margin: 70px 0 15px;
+  text-transform: uppercase;
 `;
 const StyledSkillText = styled.p`
   text-align: ceneter;

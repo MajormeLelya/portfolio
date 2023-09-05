@@ -3,6 +3,7 @@ import styled from "styled-components";
 import photo from "../../../assets/images/Vector.svg";
 import { FlexWrapper } from "../../../components/FlexWrapper";
 import { Container } from "../../../components/Container";
+import { Button } from "../../../components/Button";
 import { Theme } from "../../../styles/Theme";
 
 export const Main = () => {
@@ -19,7 +20,9 @@ export const Main = () => {
             <SecondText>
               She crafts responsive websites where technologies meet creativity
             </SecondText>
-            <Button>get in touch</Button>
+            <ButtonWrapper>
+              <Button>get in touch</Button>
+            </ButtonWrapper>
           </div>
           <Photo src={photo} alt="" />
         </FlexWrapper>
@@ -34,8 +37,8 @@ const StyledMain = styled.div`
 `;
 
 const Photo = styled.img`
-  width: 600px;
-  height: 570px;
+  width: 950px;
+  height: 936px;
   object-fit: cover;
 `;
 
@@ -62,33 +65,16 @@ const MainTitle = styled.h1`
 `;
 
 const SecondText = styled.span`
-  color: #282828;
   font-size: 19px;
   font-weight: 300;
   letter-spacing: 0.38px;
 `;
 
-const Button = styled.button`
-  width: 251px;
-  height: 62px;
-  flex-shrink: 0;
-  border-radius: 40px;
-  border: 2px solid #e2e2e2;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 600;
-  letter-spacing: 1.6px;
-  text-transform: uppercase;
+const ButtonWrapper = styled.div`
+  position: relative;
 
-  &&::before {
-    content: "";
-    display: inline-block;
-    width: 100%;
-    /* width: 62px; */
-    height: 62px;
-    top: 694px;
-    left: 551px;
+  ${Button} {
     position: absolute;
-    bottom: 0;
+    margin: 60px 0;
   }
 `;

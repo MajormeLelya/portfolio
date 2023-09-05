@@ -86,7 +86,7 @@ const SocialLink = styled.a`
   color: ${Theme.colors.socialColor};
 
   &:hover {
-    color: ${Theme.colors.accent};
+    color: ${Theme.colors.accent2};
     transform: translateY(-4px);
   }
 `;

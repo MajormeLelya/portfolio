@@ -24,6 +24,7 @@ body {
 a {
     text-decoration: none;
     cursor: pointer;
+    color: ${Theme.colors.font};
 }
 
 ul {
@@ -33,6 +34,12 @@ ul {
 button {
     background-color: unset;
     border: none;
+    cursor: pointer;
+    color: ${Theme.colors.font};
+    width: 170px;
+    height: 32px;
+    border-radius: 40px;
+    border: 2px solid #e2e2e2;
 }
 
 section{
@@ -47,5 +54,17 @@ section:nth-of-type(even){
     background-color: ${Theme.colors.secondaryBg};
 }
 
+h3 {
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
+}
 
 `;

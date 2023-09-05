@@ -55,7 +55,7 @@ const Pagination = styled.div`
     width: 7px;
     height: 7px;
     margin: 5px;
-    background-color: rgba(223, 183, 251, 0.5);
+    background-color: rgba(255, 165, 249, 0.5);
     border-radius: 20px;
 
     & + span {
@@ -63,7 +63,7 @@ const Pagination = styled.div`
     }
 
     &.active {
-      background-color: ${Theme.colors.accent};
+      background-color: ${Theme.colors.accent2};
       width: 20px;
     }
   }

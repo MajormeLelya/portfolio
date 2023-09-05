@@ -38,7 +38,7 @@ const StyledHeaderMenu = styled.nav`
 const Link = styled.a`
   font-family: "Manrope", sans-serif;
   font-weight: 400;
-  font-size: 23px;
+  font-size: 27px;
   text-align: center;
   color: transparent;
 `;
@@ -51,7 +51,7 @@ const Mask = styled.span`
   height: 50%;
   overflow-y: hidden;
   /* outline: 1px solid red; */
-  color: ${Theme.colors.accent};
+  color: ${Theme.colors.accent2};
 
   & + & {
     top: 50%;
