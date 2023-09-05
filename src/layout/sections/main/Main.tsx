@@ -37,7 +37,7 @@ const StyledMain = styled.div`
 `;
 
 const Photo = styled.img`
-  width: 950px;
+  width: 605px;
   height: 936px;
   object-fit: cover;
 `;
@@ -65,7 +65,7 @@ const MainTitle = styled.h1`
 `;
 
 const SecondText = styled.span`
-  font-size: 19px;
+  font-size: 21px;
   font-weight: 300;
   letter-spacing: 0.38px;
 `;

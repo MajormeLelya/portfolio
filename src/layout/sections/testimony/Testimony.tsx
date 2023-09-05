@@ -11,7 +11,7 @@ export const Testimony = () => {
     <StyledTestimony>
       <SectionTitle curvedLine={imagePse}>Testimony</SectionTitle>
       <FlexWrapper directon={"column"} align={"center"}>
-        <Icon iconId={"hiSvg"} />
+        {/* <Icon iconId={"hiSvg"} /> */}
         <Slider />
       </FlexWrapper>
     </StyledTestimony>
@@ -19,6 +19,6 @@ export const Testimony = () => {
 };
 
 const StyledTestimony = styled.section`
-  min-height: 50vh;
-  background-color: #fbd8f4;
+  /* min-height: 50vh;
+  background-color: #fbd8f4; */
 `;
