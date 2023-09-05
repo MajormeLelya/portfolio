@@ -3,7 +3,7 @@ import { Theme } from "../styles/Theme";
 
 export const TabLink = styled.a`
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 1px;
   text-transform: uppercase;
   padding: 10px;

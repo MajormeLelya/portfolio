@@ -20,7 +20,9 @@ export const Works = () => {
           <Work
             title={"Quiz Rick and Morty"}
             src={quizlImage}
-            text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit."}
+            text={
+              "The Rick and Morty Quiz project is an interactive web game created using HTML, CSS, and JavaScript, allowing players to answer questions about the popular animated series Rick and Morty. Players earn points for correct answers and compete on a leaderboard. "
+            }
           />
         </FlexWrapper>
       </Container>

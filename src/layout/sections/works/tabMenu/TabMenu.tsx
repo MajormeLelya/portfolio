@@ -26,4 +26,6 @@ const StyledTabMenu = styled.nav`
   }
 `;
 
-const ListItem = styled.li``;
+const ListItem = styled.li`
+  margin: 30px 0 15px;
+`;

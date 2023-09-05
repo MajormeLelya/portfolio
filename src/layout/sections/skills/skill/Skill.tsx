@@ -22,8 +22,10 @@ export const Skill = (props: SkillPropsType) => {
 };
 
 const StyledSkill = styled.div`
-  width: 280px;
-  padding: 62px 20px 40px;
+  margin: 45px 0 15px;
+  /* width: 280px; */
+  /* padding: 62px 20px 40px; */
+
   /* margin: 10px;
   display: flex;
   flex-direction: column;
@@ -38,5 +40,5 @@ const StyledSkillTitle = styled.h3`
   text-transform: uppercase;
 `;
 const StyledSkillText = styled.p`
-  text-align: ceneter;
+  text-align: center;
 `;

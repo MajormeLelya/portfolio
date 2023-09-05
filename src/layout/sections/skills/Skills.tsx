@@ -13,6 +13,14 @@ export const Skills = () => {
         <SectionTitle curvedLine={imagePse}>my skills</SectionTitle>
         <FlexWrapper wrap={"wrap"} justify={"space-between"}>
           <Skill
+            iconId={"styledcomponentsSvg"}
+            // title={"STYLED COMPONENTS"}
+            // description={
+            //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+            // }
+          />
+
+          <Skill
             iconId={"typescriptSvg"}
             // title={"TYPESCRIPT"}
             // description={
@@ -47,14 +55,6 @@ export const Skills = () => {
           <Skill
             iconId={"cssSvg"}
             // title={"CSS"}
-            // description={
-            //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
-            // }
-          />
-
-          <Skill
-            iconId={"styledcomponentsSvg"}
-            // title={"STYLED COMPONENTS"}
             // description={
             //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
             // }

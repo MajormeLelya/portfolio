@@ -38,7 +38,7 @@ const StyledHeaderMenu = styled.nav`
 const Link = styled.a`
   font-family: "Manrope", sans-serif;
   font-weight: 400;
-  font-size: 27px;
+  font-size: 33px;
   text-align: center;
   color: transparent;
 `;

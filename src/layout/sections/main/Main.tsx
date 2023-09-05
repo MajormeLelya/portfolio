@@ -10,7 +10,7 @@ export const Main = () => {
   return (
     <StyledMain>
       <Container>
-        <FlexWrapper align={"center"} justify={"space-between"}>
+        <FlexWrapper align={"center"} justify={"space-around"}>
           <div>
             <SmallText>💜 hi everyone!</SmallText>
             <MainTitle>
@@ -32,13 +32,13 @@ export const Main = () => {
 };
 
 const StyledMain = styled.div`
-  min-height: 100vh;
+  /* min-height: 100vh; */
   display: flex;
 `;
 
 const Photo = styled.img`
   width: 605px;
-  height: 936px;
+  height: 850px;
   object-fit: cover;
 `;
 
