@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e6c13ad2.css",
-    "main.js": "/portfolio/static/js/main.343455e5.js",
+    "main.css": "/portfolio/static/css/main.31d6cfe0.css",
+    "main.js": "/portfolio/static/js/main.305d177b.js",
     "static/js/787.2585d02b.chunk.js": "/portfolio/static/js/787.2585d02b.chunk.js",
+    "static/media/Vector.svg": "/portfolio/static/media/Vector.dc56247590e2154e0967011d2be372fe.svg",
     "static/media/rickandmorthy.jpeg": "/portfolio/static/media/rickandmorthy.f828d2c193d402aea9bc.jpeg",
-    "static/media/me-photo.jpg": "/portfolio/static/media/me-photo.1189544cdc570e281847.jpg",
-    "static/media/icons-sprite.svg": "/portfolio/static/media/icons-sprite.4e0a343c7ced54d2d82b733d8da288dd.svg",
+    "static/media/icons-sprite.svg": "/portfolio/static/media/icons-sprite.046bb7d9b7c9ae1c3938e2b2eea4e0ba.svg",
     "index.html": "/portfolio/index.html",
-    "main.e6c13ad2.css.map": "/portfolio/static/css/main.e6c13ad2.css.map",
-    "main.343455e5.js.map": "/portfolio/static/js/main.343455e5.js.map",
+    "static/media/curvedline.svg": "/portfolio/static/media/curvedline.898a7a55d83bcfafcd214441756d2a42.svg",
+    "main.305d177b.js.map": "/portfolio/static/js/main.305d177b.js.map",
     "787.2585d02b.chunk.js.map": "/portfolio/static/js/787.2585d02b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.343455e5.js"
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.305d177b.js"
   ]
 }
