@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.31d6cfe0.css",
-    "main.js": "/portfolio/static/js/main.ea4d3298.js",
+    "main.js": "/portfolio/static/js/main.5c7bcefd.js",
     "static/js/787.2585d02b.chunk.js": "/portfolio/static/js/787.2585d02b.chunk.js",
     "static/media/Vector.svg": "/portfolio/static/media/Vector.dc56247590e2154e0967011d2be372fe.svg",
     "static/media/rickandmorthy.jpeg": "/portfolio/static/media/rickandmorthy.f828d2c193d402aea9bc.jpeg",
+    "static/media/future-project.jpeg": "/portfolio/static/media/future-project.535c0ddb5326ea575b04.jpeg",
     "static/media/icons-sprite.svg": "/portfolio/static/media/icons-sprite.046bb7d9b7c9ae1c3938e2b2eea4e0ba.svg",
     "index.html": "/portfolio/index.html",
     "static/media/curvedline.svg": "/portfolio/static/media/curvedline.898a7a55d83bcfafcd214441756d2a42.svg",
-    "main.ea4d3298.js.map": "/portfolio/static/js/main.ea4d3298.js.map",
+    "main.5c7bcefd.js.map": "/portfolio/static/js/main.5c7bcefd.js.map",
     "787.2585d02b.chunk.js.map": "/portfolio/static/js/787.2585d02b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.ea4d3298.js"
+    "static/js/main.5c7bcefd.js"
   ]
 }
